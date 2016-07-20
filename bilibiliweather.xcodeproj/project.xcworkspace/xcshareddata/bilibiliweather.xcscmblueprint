@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "73265716E8608161FF90DB703FCA62615A6DB8AC",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "73265716E8608161FF90DB703FCA62615A6DB8AC" : 0,
+    "4351C74325F1E5029264DE63F31BBAB4CBF19802" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "30E874E3-A472-41AC-9C9E-CE457530CE30",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "73265716E8608161FF90DB703FCA62615A6DB8AC" : "bilibiliweather\/",
+    "4351C74325F1E5029264DE63F31BBAB4CBF19802" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "bilibiliweather",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "bilibiliweather.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/cdroad\/shiyan",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4351C74325F1E5029264DE63F31BBAB4CBF19802"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:cdroad\/weatherApp.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "73265716E8608161FF90DB703FCA62615A6DB8AC"
+    }
+  ]
+}

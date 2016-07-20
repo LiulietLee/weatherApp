@@ -25,7 +25,7 @@ class ViewController: UIViewController {
             
         }))
         alert.addTextFieldWithConfigurationHandler{(tf) in
-            tf.placeholder = "enther you city  name here"
+            tf.placeholder = "enter you city  name here"
         }
         self.presentViewController(alert, animated: true, completion: nil)
         
@@ -37,14 +37,21 @@ class ViewController: UIViewController {
         //mypath d6127322479ba3819ef01fe42f26d526
     
         let cityName = city.stringByAddingPercentEncodingWithAllowedCharacters(NSCharacterSet.URLHostAllowedCharacterSet())
-        let path = "http://api.openweathermap.org/data/2.5/weather?q=\(cityName)London&appid=d6127322479ba3819ef01fe42f26d526"
+        let path = "http://api.openweathermap.org/data/2.5/weather?q=\(cityName!)&appid=d6127322479ba3819ef01fe42f26d526"
         let url = NSURL(string:path)
         let request = NSURLRequest(URL:url!)
         let session = NSURLSession.sharedSession()
         let task = session.dataTaskWithRequest(request){(data,response,error)in
             if error == nil{
-                print("get data")
+                let json = JSON(data:data!)
+                let name = json["name"].string!
+                let temp = json["main"]["temp"].double! - 273.15
+                let description = json["weather"][0]["description"].string!
                 
+                dispatch_sync(dispatch_get_main_queue(), {
+                    self.updateUI(name, temp: temp, description: description)
+                })
+                print("done!")
             }else{
             print(error)
             }

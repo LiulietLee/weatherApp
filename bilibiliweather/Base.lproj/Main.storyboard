@@ -37,7 +37,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gDI-Ex-ClX">
-                                <rect key="frame" x="282" y="380" width="50" height="30"/>
+                                <rect key="frame" x="87" y="62" width="50" height="30"/>
                                 <state key="normal" title="set city"/>
                                 <connections>
                                     <action selector="setCityButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kVL-3K-4iK"/>
@@ -57,9 +57,7 @@
                     <connections>
                         <outlet property="cityLabel" destination="Ubz-4i-c3V" id="9su-rA-EcU"/>
                         <outlet property="descriptionLabel" destination="lVq-pK-vmd" id="iIZ-D4-gVy"/>
-                        <outlet property="descriptionLable" destination="Ubz-4i-c3V" id="jHi-V7-yMs"/>
                         <outlet property="tempLabel" destination="M9U-ex-F78" id="1WY-xs-wlo"/>
-                        <outlet property="tempLable" destination="M9U-ex-F78" id="Uel-Le-gUr"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
