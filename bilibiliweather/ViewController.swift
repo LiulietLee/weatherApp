@@ -14,7 +14,12 @@ class ViewController: UIViewController {
     @IBOutlet weak var tempLabel: UILabel!
     @IBOutlet weak var descriptionLabel: UILabel!
     
-    fileprivate func getWeatherData(_ city:String){
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        getWeatherData()
+    }
+    
+    fileprivate func getWeatherData(){
         let path = "http://api.openweathermap.org/data/2.5/weather?q=london&appid=d6127322479ba3819ef01fe42f26d526"
         let url = URL(string: path)
         let request = URLRequest(url: url!)
