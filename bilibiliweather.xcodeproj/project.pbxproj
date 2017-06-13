@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		083F3ED81D3F48B30082A6A9 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083F3ED71D3F48B20082A6A9 /* SwiftyJSON.swift */; };
 		088E28FD1D3CD7F700525255 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088E28FC1D3CD7F700525255 /* AppDelegate.swift */; };
 		088E28FF1D3CD7F700525255 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088E28FE1D3CD7F700525255 /* ViewController.swift */; };
 		088E29021D3CD7F700525255 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 088E29001D3CD7F700525255 /* Main.storyboard */; };
@@ -35,7 +34,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		083F3ED71D3F48B20082A6A9 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 		088E28F91D3CD7F600525255 /* bilibiliweather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bilibiliweather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		088E28FC1D3CD7F700525255 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		088E28FE1D3CD7F700525255 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,7 +97,6 @@
 		088E28FB1D3CD7F700525255 /* bilibiliweather */ = {
 			isa = PBXGroup;
 			children = (
-				083F3ED71D3F48B20082A6A9 /* SwiftyJSON.swift */,
 				088E28FC1D3CD7F700525255 /* AppDelegate.swift */,
 				088E28FE1D3CD7F700525255 /* ViewController.swift */,
 				088E29001D3CD7F700525255 /* Main.storyboard */,
@@ -197,13 +194,16 @@
 					088E28F81D3CD7F600525255 = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = 4C68B7QZF6;
+						LastSwiftMigration = 0830;
 					};
 					088E290C1D3CD7F700525255 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0830;
 						TestTargetID = 088E28F81D3CD7F600525255;
 					};
 					088E29171D3CD7F700525255 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0830;
 						TestTargetID = 088E28F81D3CD7F600525255;
 					};
 				};
@@ -260,7 +260,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				083F3ED81D3F48B30082A6A9 /* SwiftyJSON.swift in Sources */,
 				088E28FF1D3CD7F700525255 /* ViewController.swift in Sources */,
 				088E28FD1D3CD7F700525255 /* AppDelegate.swift in Sources */,
 			);
@@ -409,6 +408,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yufanlin.bilibiliweather;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -421,6 +421,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yufanlin.bilibiliweather;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -432,6 +433,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yufanlin.bilibiliweatherTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bilibiliweather.app/bilibiliweather";
 			};
 			name = Debug;
@@ -444,6 +446,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yufanlin.bilibiliweatherTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bilibiliweather.app/bilibiliweather";
 			};
 			name = Release;
@@ -455,6 +458,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yufanlin.bilibiliweatherUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = bilibiliweather;
 			};
 			name = Debug;
@@ -466,6 +470,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yufanlin.bilibiliweatherUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = bilibiliweather;
 			};
 			name = Release;
